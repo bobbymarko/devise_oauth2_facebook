@@ -2,6 +2,9 @@ require 'devise'
 require 'fbgraph'
 
 require 'devise_oauth2_facebook/engine'
+require 'devise_oauth2_facebook/facebook_consumer_helper'
+require 'devise_oauth2_facebook/model'
+require 'devise_oauth2_facebook/routes'
 
 module Devise
   mattr_accessor :facebook_uid_field
